@@ -70,7 +70,7 @@
           <text class="label">最大颜色数</text>
           <text class="label-val">{{ maxColors === 0 ? '不限' : maxColors }}</text>
         </view>
-        <slider :min="0" :max="64" :value="maxColors" @changing="onMaxColorsChange" @change="onMaxColorsChange" />
+        <slider :min="0" :max="64" :value="maxColors" @changing="onMaxColorsChanging" @change="onMaxColorsChange" />
       </view>
 
       <view class="panel-row">
@@ -352,6 +352,9 @@ export default {
     onRemoveBgChange(e) {
       this.removeBg = e.detail.value
       this.regenerate()
+    },
+    onMaxColorsChanging(e) {
+      this.maxColors = Number(e.detail.value)
     },
     onMaxColorsChange(e) {
       this.maxColors = Number(e.detail.value)

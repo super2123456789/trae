@@ -2,12 +2,13 @@
 import { initCloud, isCloudReady } from '@/utils/cloud.js'
 
 export default {
+  globalData: {
+    cloudReady: false
+  },
   onLaunch() {
     // 云开发初始化（未配置云环境时自动回退到本地存储，保证开箱即用）
     initCloud()
-  },
-  globalData: {
-    cloudReady: isCloudReady()
+    this.globalData.cloudReady = isCloudReady()
   }
 }
 </script>

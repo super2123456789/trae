@@ -1,45 +1,271 @@
 {
   "id": "perler-midi",
   "name": "Perler Midi (5mm)",
-  "beadSizes": ["5mm"],
-  "source": "https://perler.com/content/downloads/perler-bead-color-reference-jan2020.pdf",
-  "note": "Perler Midi 5mm 代表性子集，正式备豆请按 Perler 官方色卡校对",
+  "beadSizes": [
+    "5mm"
+  ],
+  "source": "https://myblockstudio.com/en/colors.php",
+  "note": "官方色号共享色板（含各自品牌色号，约 50 色）",
   "colors": [
-    { "code": "P01", "name": "White", "hex": "#FFFFFF" },
-    { "code": "P02", "name": "Cream", "hex": "#F8F0DC" },
-    { "code": "P03", "name": "Yellow", "hex": "#FFD800" },
-    { "code": "P04", "name": "Cheddar", "hex": "#F5A800" },
-    { "code": "P05", "name": "Pastel Yellow", "hex": "#FFF3B0" },
-    { "code": "P06", "name": "Orange", "hex": "#F58220" },
-    { "code": "P07", "name": "Butterscotch", "hex": "#D98A2B" },
-    { "code": "P08", "name": "Red", "hex": "#D74B27" },
-    { "code": "P09", "name": "Cranapple", "hex": "#9E1B32" },
-    { "code": "P10", "name": "Bubblegum", "hex": "#FF8EC5" },
-    { "code": "P11", "name": "Pink", "hex": "#F47BB0" },
-    { "code": "P12", "name": "Light Pink", "hex": "#FFD3E4" },
-    { "code": "P13", "name": "Magenta", "hex": "#C64B8C" },
-    { "code": "P14", "name": "Raspberry", "hex": "#B23A61" },
-    { "code": "P15", "name": "Blush", "hex": "#F5C8C0" },
-    { "code": "P16", "name": "Purple", "hex": "#6B3FA0" },
-    { "code": "P17", "name": "Lavender", "hex": "#C8A2DC" },
-    { "code": "P18", "name": "Dark Blue", "hex": "#1F4E8C" },
-    { "code": "P19", "name": "Light Blue", "hex": "#9BD1F0" },
-    { "code": "P20", "name": "Pastel Blue", "hex": "#C8E4F2" },
-    { "code": "P21", "name": "Toothpaste", "hex": "#8FE0D9" },
-    { "code": "P22", "name": "Parrot Green", "hex": "#58A64E" },
-    { "code": "P23", "name": "Bright Green", "hex": "#2E8B57" },
-    { "code": "P24", "name": "Dark Green", "hex": "#1E5631" },
-    { "code": "P25", "name": "Pastel Green", "hex": "#C6E6C0" },
-    { "code": "P26", "name": "Light Green", "hex": "#9ED06E" },
-    { "code": "P27", "name": "Olive", "hex": "#7B8F3F" },
-    { "code": "P28", "name": "Brown", "hex": "#6E4B2A" },
-    { "code": "P29", "name": "Light Brown", "hex": "#B5835A" },
-    { "code": "P30", "name": "Tan", "hex": "#D2B48C" },
-    { "code": "P31", "name": "Gingerbread", "hex": "#7C4A1E" },
-    { "code": "P32", "name": "Rust", "hex": "#9C4A24" },
-    { "code": "P33", "name": "Grey", "hex": "#8C8C8C" },
-    { "code": "P34", "name": "Light Grey", "hex": "#C9C9C9" },
-    { "code": "P35", "name": "Black", "hex": "#1A1A1A" },
-    { "code": "P36", "name": "Dark Grey", "hex": "#4D4D4D" }
+    {
+      "code": "80-19001",
+      "name": "White",
+      "hex": "#FFFFFF"
+    },
+    {
+      "code": "80-19002",
+      "name": "Cream",
+      "hex": "#F6E7C1"
+    },
+    {
+      "code": "80-19098",
+      "name": "Sand",
+      "hex": "#E7CDA6"
+    },
+    {
+      "code": "80-19035",
+      "name": "Tan",
+      "hex": "#D9B380"
+    },
+    {
+      "code": "80-15208",
+      "name": "Light Gray",
+      "hex": "#CFCFCF"
+    },
+    {
+      "code": "80-19017",
+      "name": "Gray",
+      "hex": "#8A8C8E"
+    },
+    {
+      "code": "80-19092",
+      "name": "Dark Gray",
+      "hex": "#58595B"
+    },
+    {
+      "code": "80-19018",
+      "name": "Black",
+      "hex": "#000000"
+    },
+    {
+      "code": "80-19021",
+      "name": "Light Brown",
+      "hex": "#B5835A"
+    },
+    {
+      "code": "80-19012",
+      "name": "Brown",
+      "hex": "#6E4B2A"
+    },
+    {
+      "code": "80-15262",
+      "name": "Dark Brown",
+      "hex": "#4A3122"
+    },
+    {
+      "code": "80-19020",
+      "name": "Rust",
+      "hex": "#9C4A24"
+    },
+    {
+      "code": "80-15250",
+      "name": "Gingerbread",
+      "hex": "#7C4A1E"
+    },
+    {
+      "code": "80-19005",
+      "name": "Red",
+      "hex": "#E1141C"
+    },
+    {
+      "code": "80-19059",
+      "name": "Hot Coral",
+      "hex": "#F15F5A"
+    },
+    {
+      "code": "80-15204",
+      "name": "Salmon",
+      "hex": "#FF8C7A"
+    },
+    {
+      "code": "80-19004",
+      "name": "Orange",
+      "hex": "#F36F21"
+    },
+    {
+      "code": "80-19057",
+      "name": "Cheddar",
+      "hex": "#F9B233"
+    },
+    {
+      "code": "80-19090",
+      "name": "Butterscotch",
+      "hex": "#F0A93B"
+    },
+    {
+      "code": "80-19003",
+      "name": "Yellow",
+      "hex": "#FBE122"
+    },
+    {
+      "code": "80-19056",
+      "name": "Pastel Yellow",
+      "hex": "#F6EFA6"
+    },
+    {
+      "code": "80-19061",
+      "name": "Kiwi Lime",
+      "hex": "#C7E94F"
+    },
+    {
+      "code": "80-19011",
+      "name": "Light Green",
+      "hex": "#A8DCA0"
+    },
+    {
+      "code": "80-19053",
+      "name": "Pastel Green",
+      "hex": "#BFE6B3"
+    },
+    {
+      "code": "80-19080",
+      "name": "Green",
+      "hex": "#39B54A"
+    },
+    {
+      "code": "80-19010",
+      "name": "Dark Green",
+      "hex": "#0A7C3E"
+    },
+    {
+      "code": "80-15179",
+      "name": "Evergreen",
+      "hex": "#18553A"
+    },
+    {
+      "code": "80-19058",
+      "name": "Toothpaste",
+      "hex": "#8FD9C0"
+    },
+    {
+      "code": "80-19062",
+      "name": "Turquoise",
+      "hex": "#00A99D"
+    },
+    {
+      "code": "80-15218",
+      "name": "Teal",
+      "hex": "#0A7D77"
+    },
+    {
+      "code": "80-15216",
+      "name": "Robin Egg",
+      "hex": "#5BC2D6"
+    },
+    {
+      "code": "80-19009",
+      "name": "Light Blue",
+      "hex": "#6DCFF6"
+    },
+    {
+      "code": "80-19052",
+      "name": "Pastel Blue",
+      "hex": "#A4D4E6"
+    },
+    {
+      "code": "80-15200",
+      "name": "Cobalt",
+      "hex": "#1C3F94"
+    },
+    {
+      "code": "80-19008",
+      "name": "Dark Blue",
+      "hex": "#1B2A6B"
+    },
+    {
+      "code": "80-15261",
+      "name": "Navy",
+      "hex": "#16224A"
+    },
+    {
+      "code": "80-15215",
+      "name": "Periwinkle",
+      "hex": "#8E9DCC"
+    },
+    {
+      "code": "80-15182",
+      "name": "Lavender",
+      "hex": "#B3A0D4"
+    },
+    {
+      "code": "80-19054",
+      "name": "Pastel Lavender",
+      "hex": "#CBB7E0"
+    },
+    {
+      "code": "80-19007",
+      "name": "Purple",
+      "hex": "#7B3F98"
+    },
+    {
+      "code": "80-19060",
+      "name": "Plum",
+      "hex": "#6C3082"
+    },
+    {
+      "code": "80-19038",
+      "name": "Magenta",
+      "hex": "#D6006E"
+    },
+    {
+      "code": "80-19083",
+      "name": "Pink",
+      "hex": "#F7A8C4"
+    },
+    {
+      "code": "80-19079",
+      "name": "Light Pink",
+      "hex": "#F8CDDC"
+    },
+    {
+      "code": "80-19063",
+      "name": "Blush",
+      "hex": "#F4B9C2"
+    },
+    {
+      "code": "80-19096",
+      "name": "Berry",
+      "hex": "#8C2A4A"
+    },
+    {
+      "code": "80-19033",
+      "name": "Flesh",
+      "hex": "#FBD0A8"
+    },
+    {
+      "code": "80-15202",
+      "name": "Pearl Blue",
+      "hex": "#BCD9E6"
+    },
+    {
+      "code": "80-15276",
+      "name": "Pearl Pink",
+      "hex": "#F3C9D6"
+    },
+    {
+      "code": "80-15240",
+      "name": "Pearl Green",
+      "hex": "#B9DDC0"
+    },
+    {
+      "code": "80-15249",
+      "name": "Gold",
+      "hex": "#C9A227"
+    },
+    {
+      "code": "80-15267",
+      "name": "Silver",
+      "hex": "#C0C0C4"
+    }
   ]
 }

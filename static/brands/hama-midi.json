@@ -1,41 +1,241 @@
 {
   "id": "hama-midi",
   "name": "Hama Midi (5mm)",
-  "beadSizes": ["5mm"],
-  "source": "https://makebead.com/",
-  "note": "Hama Midi 5mm 代表性子集，正式备豆请按 Hama 官方色卡校对",
+  "beadSizes": [
+    "5mm"
+  ],
+  "source": "https://myblockstudio.com/en/colors.php",
+  "note": "官方色号共享色板（含各自品牌色号，约 50 色）",
   "colors": [
-    { "code": "H01", "name": "White", "hex": "#FFFFFF" },
-    { "code": "H02", "name": "Cream", "hex": "#F8F0DC" },
-    { "code": "H03", "name": "Yellow", "hex": "#FFD800" },
-    { "code": "H04", "name": "Pastel Yellow", "hex": "#FFF3B0" },
-    { "code": "H05", "name": "Orange", "hex": "#F58220" },
-    { "code": "H06", "name": "Red", "hex": "#D74B27" },
-    { "code": "H07", "name": "Burgundy", "hex": "#8E1B24" },
-    { "code": "H08", "name": "Pink", "hex": "#F47BB0" },
-    { "code": "H09", "name": "Light Pink", "hex": "#FFD3E4" },
-    { "code": "H10", "name": "Cerise", "hex": "#C43C70" },
-    { "code": "H11", "name": "Purple", "hex": "#6B3FA0" },
-    { "code": "H12", "name": "Lilac", "hex": "#C8A2DC" },
-    { "code": "H13", "name": "Violet", "hex": "#9A6FC4" },
-    { "code": "H14", "name": "Dark Blue", "hex": "#1F4E8C" },
-    { "code": "H15", "name": "Blue", "hex": "#2E6FBF" },
-    { "code": "H16", "name": "Light Blue", "hex": "#9BD1F0" },
-    { "code": "H17", "name": "Pastel Blue", "hex": "#C8E4F2" },
-    { "code": "H18", "name": "Aqua", "hex": "#8FE0D9" },
-    { "code": "H19", "name": "Turquoise", "hex": "#4FB8C0" },
-    { "code": "H20", "name": "Green", "hex": "#52B555" },
-    { "code": "H21", "name": "Light Green", "hex": "#9ED06E" },
-    { "code": "H22", "name": "Pastel Green", "hex": "#C6E6C0" },
-    { "code": "H23", "name": "Dark Green", "hex": "#1E5631" },
-    { "code": "H24", "name": "Olive", "hex": "#7B8F3F" },
-    { "code": "H25", "name": "Brown", "hex": "#6E4B2A" },
-    { "code": "H26", "name": "Light Brown", "hex": "#B5835A" },
-    { "code": "H27", "name": "Tan", "hex": "#D2B48C" },
-    { "code": "H28", "name": "Grey", "hex": "#8C8C8C" },
-    { "code": "H29", "name": "Light Grey", "hex": "#C9C9C9" },
-    { "code": "H30", "name": "Black", "hex": "#1A1A1A" },
-    { "code": "H31", "name": "Skin", "hex": "#F2C79E" },
-    { "code": "H32", "name": "Reddish Brown", "hex": "#9C4A24" }
+    {
+      "code": "H01",
+      "name": "White",
+      "hex": "#FFFFFF"
+    },
+    {
+      "code": "H02",
+      "name": "Cream",
+      "hex": "#F6E7C1"
+    },
+    {
+      "code": "H75",
+      "name": "Tan",
+      "hex": "#D9B380"
+    },
+    {
+      "code": "H77",
+      "name": "Light Gray",
+      "hex": "#CFCFCF"
+    },
+    {
+      "code": "H17",
+      "name": "Gray",
+      "hex": "#8A8C8E"
+    },
+    {
+      "code": "H71",
+      "name": "Dark Gray",
+      "hex": "#58595B"
+    },
+    {
+      "code": "H18",
+      "name": "Black",
+      "hex": "#000000"
+    },
+    {
+      "code": "H21",
+      "name": "Light Brown",
+      "hex": "#B5835A"
+    },
+    {
+      "code": "H12",
+      "name": "Dark Brown",
+      "hex": "#4A3122"
+    },
+    {
+      "code": "H20",
+      "name": "Rust",
+      "hex": "#9C4A24"
+    },
+    {
+      "code": "H76",
+      "name": "Gingerbread",
+      "hex": "#7C4A1E"
+    },
+    {
+      "code": "H05",
+      "name": "Red",
+      "hex": "#E1141C"
+    },
+    {
+      "code": "H44",
+      "name": "Hot Coral",
+      "hex": "#F15F5A"
+    },
+    {
+      "code": "H26",
+      "name": "Salmon",
+      "hex": "#FF8C7A"
+    },
+    {
+      "code": "H79",
+      "name": "Orange",
+      "hex": "#F36F21"
+    },
+    {
+      "code": "H60",
+      "name": "Butterscotch",
+      "hex": "#F0A93B"
+    },
+    {
+      "code": "H03",
+      "name": "Yellow",
+      "hex": "#FBE122"
+    },
+    {
+      "code": "H43",
+      "name": "Pastel Yellow",
+      "hex": "#F6EFA6"
+    },
+    {
+      "code": "H104",
+      "name": "Kiwi Lime",
+      "hex": "#C7E94F"
+    },
+    {
+      "code": "H115",
+      "name": "Bright Green",
+      "hex": "#8DC63F"
+    },
+    {
+      "code": "H11",
+      "name": "Light Green",
+      "hex": "#A8DCA0"
+    },
+    {
+      "code": "H47",
+      "name": "Pastel Green",
+      "hex": "#BFE6B3"
+    },
+    {
+      "code": "H10",
+      "name": "Dark Green",
+      "hex": "#0A7C3E"
+    },
+    {
+      "code": "H98",
+      "name": "Toothpaste",
+      "hex": "#8FD9C0"
+    },
+    {
+      "code": "H31",
+      "name": "Turquoise",
+      "hex": "#00A99D"
+    },
+    {
+      "code": "H49",
+      "name": "Robin Egg",
+      "hex": "#5BC2D6"
+    },
+    {
+      "code": "H46",
+      "name": "Pastel Blue",
+      "hex": "#A4D4E6"
+    },
+    {
+      "code": "H119",
+      "name": "Blue",
+      "hex": "#1B75BB"
+    },
+    {
+      "code": "H08",
+      "name": "Cobalt",
+      "hex": "#1C3F94"
+    },
+    {
+      "code": "H116",
+      "name": "Navy",
+      "hex": "#16224A"
+    },
+    {
+      "code": "H107",
+      "name": "Lavender",
+      "hex": "#B3A0D4"
+    },
+    {
+      "code": "H106",
+      "name": "Pastel Lavender",
+      "hex": "#CBB7E0"
+    },
+    {
+      "code": "H07",
+      "name": "Purple",
+      "hex": "#7B3F98"
+    },
+    {
+      "code": "H82",
+      "name": "Plum",
+      "hex": "#6C3082"
+    },
+    {
+      "code": "H06",
+      "name": "Pink",
+      "hex": "#F7A8C4"
+    },
+    {
+      "code": "H112",
+      "name": "Blush",
+      "hex": "#F4B9C2"
+    },
+    {
+      "code": "H118",
+      "name": "Berry",
+      "hex": "#8C2A4A"
+    },
+    {
+      "code": "H27",
+      "name": "Flesh",
+      "hex": "#FBD0A8"
+    },
+    {
+      "code": "H78",
+      "name": "Peach",
+      "hex": "#FCD5B5"
+    },
+    {
+      "code": "H34",
+      "name": "Neon Yellow",
+      "hex": "#EAFF00"
+    },
+    {
+      "code": "H37",
+      "name": "Neon Green",
+      "hex": "#5CFF5C"
+    },
+    {
+      "code": "H38",
+      "name": "Neon Orange",
+      "hex": "#FF7A00"
+    },
+    {
+      "code": "H32",
+      "name": "Neon Pink",
+      "hex": "#FF4FA3"
+    },
+    {
+      "code": "H64",
+      "name": "Pearl White",
+      "hex": "#F4F1EA"
+    },
+    {
+      "code": "H61",
+      "name": "Gold",
+      "hex": "#C9A227"
+    },
+    {
+      "code": "H62",
+      "name": "Silver",
+      "hex": "#C0C0C4"
+    }
   ]
 }

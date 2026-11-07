@@ -1,44 +1,271 @@
 {
   "id": "artkal-s",
   "name": "Artkal S (5mm)",
-  "beadSizes": ["5mm"],
-  "source": "https://myblockstudio.com/en/colors.php?brand=artkal",
-  "note": "Artkal S 系列代表性子集，正式备豆请按 Artkal 官方色卡校对",
+  "beadSizes": [
+    "5mm"
+  ],
+  "source": "https://myblockstudio.com/en/colors.php",
+  "note": "官方色号共享色板（含各自品牌色号，约 50 色）",
   "colors": [
-    { "code": "S01", "name": "White", "hex": "#FFFFFF" },
-    { "code": "S02", "name": "Cream", "hex": "#F8F0DC" },
-    { "code": "S03", "name": "Yellow", "hex": "#FFD800" },
-    { "code": "S04", "name": "Pastel Yellow", "hex": "#FFF3B0" },
-    { "code": "S05", "name": "Orange", "hex": "#F58220" },
-    { "code": "S06", "name": "Red", "hex": "#D74B27" },
-    { "code": "S07", "name": "Burgundy", "hex": "#8E1B24" },
-    { "code": "S08", "name": "Pink", "hex": "#F47BB0" },
-    { "code": "S09", "name": "Light Pink", "hex": "#FFD3E4" },
-    { "code": "S10", "name": "Magenta", "hex": "#C64B8C" },
-    { "code": "S11", "name": "Purple", "hex": "#6B3FA0" },
-    { "code": "S12", "name": "Lilac", "hex": "#C8A2DC" },
-    { "code": "S13", "name": "Dark Blue", "hex": "#1F4E8C" },
-    { "code": "S14", "name": "Blue", "hex": "#2E6FBF" },
-    { "code": "S15", "name": "Rust", "hex": "#9C4A24" },
-    { "code": "S16", "name": "Brown", "hex": "#6E4B2A" },
-    { "code": "S17", "name": "Light Brown", "hex": "#B5835A" },
-    { "code": "S18", "name": "Gingerbread", "hex": "#7C4A1E" },
-    { "code": "S19", "name": "Light Blue", "hex": "#9BD1F0" },
-    { "code": "S20", "name": "Pastel Blue", "hex": "#C8E4F2" },
-    { "code": "S21", "name": "Aqua", "hex": "#8FE0D9" },
-    { "code": "S22", "name": "Turquoise", "hex": "#4FB8C0" },
-    { "code": "S23", "name": "Green", "hex": "#52B555" },
-    { "code": "S24", "name": "Light Green", "hex": "#9ED06E" },
-    { "code": "S25", "name": "Pastel Green", "hex": "#C6E6C0" },
-    { "code": "S26", "name": "Dark Green", "hex": "#1E5631" },
-    { "code": "S27", "name": "Olive", "hex": "#7B8F3F" },
-    { "code": "S28", "name": "Tan", "hex": "#D2B48C" },
-    { "code": "S29", "name": "Grey", "hex": "#8C8C8C" },
-    { "code": "S30", "name": "Light Grey", "hex": "#C9C9C9" },
-    { "code": "S31", "name": "Black", "hex": "#1A1A1A" },
-    { "code": "S32", "name": "Skin", "hex": "#F2C79E" },
-    { "code": "S33", "name": "Dark Grey", "hex": "#4D4D4D" },
-    { "code": "S34", "name": "Pastel Purple", "hex": "#CFC0EA" },
-    { "code": "S35", "name": "Deep Blue", "hex": "#25345B" }
+    {
+      "code": "S01",
+      "name": "White",
+      "hex": "#FFFFFF"
+    },
+    {
+      "code": "SP8",
+      "name": "Cream",
+      "hex": "#F6E7C1"
+    },
+    {
+      "code": "S154",
+      "name": "Sand",
+      "hex": "#E7CDA6"
+    },
+    {
+      "code": "S113",
+      "name": "Tan",
+      "hex": "#D9B380"
+    },
+    {
+      "code": "S77",
+      "name": "Light Gray",
+      "hex": "#CFCFCF"
+    },
+    {
+      "code": "S159",
+      "name": "Gray",
+      "hex": "#8A8C8E"
+    },
+    {
+      "code": "S89",
+      "name": "Dark Gray",
+      "hex": "#58595B"
+    },
+    {
+      "code": "S13",
+      "name": "Black",
+      "hex": "#000000"
+    },
+    {
+      "code": "S17",
+      "name": "Light Brown",
+      "hex": "#B5835A"
+    },
+    {
+      "code": "S16",
+      "name": "Brown",
+      "hex": "#6E4B2A"
+    },
+    {
+      "code": "S15",
+      "name": "Rust",
+      "hex": "#9C4A24"
+    },
+    {
+      "code": "S148",
+      "name": "Gingerbread",
+      "hex": "#7C4A1E"
+    },
+    {
+      "code": "S85",
+      "name": "Red",
+      "hex": "#E1141C"
+    },
+    {
+      "code": "S87",
+      "name": "Hot Coral",
+      "hex": "#F15F5A"
+    },
+    {
+      "code": "S95",
+      "name": "Salmon",
+      "hex": "#FF8C7A"
+    },
+    {
+      "code": "S39",
+      "name": "Orange",
+      "hex": "#F36F21"
+    },
+    {
+      "code": "SP3",
+      "name": "Cheddar",
+      "hex": "#F9B233"
+    },
+    {
+      "code": "S68",
+      "name": "Butterscotch",
+      "hex": "#F0A93B"
+    },
+    {
+      "code": "S14",
+      "name": "Yellow",
+      "hex": "#FBE122"
+    },
+    {
+      "code": "S52",
+      "name": "Pastel Yellow",
+      "hex": "#F6EFA6"
+    },
+    {
+      "code": "S21",
+      "name": "Bright Green",
+      "hex": "#8DC63F"
+    },
+    {
+      "code": "S120",
+      "name": "Pastel Green",
+      "hex": "#BFE6B3"
+    },
+    {
+      "code": "SL2",
+      "name": "Dark Green",
+      "hex": "#0A7C3E"
+    },
+    {
+      "code": "S69",
+      "name": "Evergreen",
+      "hex": "#18553A"
+    },
+    {
+      "code": "S30",
+      "name": "Toothpaste",
+      "hex": "#8FD9C0"
+    },
+    {
+      "code": "S74",
+      "name": "Turquoise",
+      "hex": "#00A99D"
+    },
+    {
+      "code": "S105",
+      "name": "Teal",
+      "hex": "#0A7D77"
+    },
+    {
+      "code": "S99",
+      "name": "Robin Egg",
+      "hex": "#5BC2D6"
+    },
+    {
+      "code": "S100",
+      "name": "Light Blue",
+      "hex": "#6DCFF6"
+    },
+    {
+      "code": "S53",
+      "name": "Pastel Blue",
+      "hex": "#A4D4E6"
+    },
+    {
+      "code": "SE6",
+      "name": "Blue",
+      "hex": "#1B75BB"
+    },
+    {
+      "code": "S103",
+      "name": "Cobalt",
+      "hex": "#1C3F94"
+    },
+    {
+      "code": "S144",
+      "name": "Dark Blue",
+      "hex": "#1B2A6B"
+    },
+    {
+      "code": "S91",
+      "name": "Navy",
+      "hex": "#16224A"
+    },
+    {
+      "code": "SE3",
+      "name": "Periwinkle",
+      "hex": "#8E9DCC"
+    },
+    {
+      "code": "S131",
+      "name": "Lavender",
+      "hex": "#B3A0D4"
+    },
+    {
+      "code": "S60",
+      "name": "Pastel Lavender",
+      "hex": "#CBB7E0"
+    },
+    {
+      "code": "SP7",
+      "name": "Purple",
+      "hex": "#7B3F98"
+    },
+    {
+      "code": "S22",
+      "name": "Dark Purple",
+      "hex": "#4A2370"
+    },
+    {
+      "code": "SE8",
+      "name": "Plum",
+      "hex": "#6C3082"
+    },
+    {
+      "code": "S26",
+      "name": "Magenta",
+      "hex": "#D6006E"
+    },
+    {
+      "code": "S25",
+      "name": "Pink",
+      "hex": "#F7A8C4"
+    },
+    {
+      "code": "S35",
+      "name": "Light Pink",
+      "hex": "#F8CDDC"
+    },
+    {
+      "code": "S02",
+      "name": "Blush",
+      "hex": "#F4B9C2"
+    },
+    {
+      "code": "S32",
+      "name": "Flesh",
+      "hex": "#FBD0A8"
+    },
+    {
+      "code": "S19",
+      "name": "Peach",
+      "hex": "#FCD5B5"
+    },
+    {
+      "code": "SN1",
+      "name": "Neon Orange",
+      "hex": "#FF7A00"
+    },
+    {
+      "code": "ST2",
+      "name": "Neon Pink",
+      "hex": "#FF4FA3"
+    },
+    {
+      "code": "S153",
+      "name": "Pearl Blue",
+      "hex": "#BCD9E6"
+    },
+    {
+      "code": "S31",
+      "name": "Pearl Green",
+      "hex": "#B9DDC0"
+    },
+    {
+      "code": "S92",
+      "name": "Gold",
+      "hex": "#C9A227"
+    },
+    {
+      "code": "S78",
+      "name": "Silver",
+      "hex": "#C0C0C4"
+    }
   ]
 }

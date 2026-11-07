@@ -52,7 +52,7 @@ export function matchToPalette(cells, W, H, palette, options = {}) {
         const eb = b - pb[idx]
         diffuse(fr, fg, fb, W, H, i, x, er, eg, eb)
       } else {
-        idx = nearestLab(cell.r, cell.g, cell.b, plab, pr, pg, pb)
+        idx = nearestLab(cell.r, cell.g, cell.b, plab)
       }
       indices[i] = idx
       usedSet.add(idx)
@@ -86,12 +86,11 @@ function nearestRgb(r, g, b, pr, pg, pb) {
   return best
 }
 
-function nearestLab(r, g, b, plab, pr, pg, pb) {
+function nearestLab(r, g, b, plab) {
+  const lab = rgbToLab({ r, g, b })
   let best = 0
   let bd = Infinity
-  let lab = null
   for (let k = 0; k < plab.length; k++) {
-    if (!lab) lab = rgbToLab({ r, g, b })
     const d = labDistance(lab, plab[k])
     if (d < bd) {
       bd = d
