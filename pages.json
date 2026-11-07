@@ -1,0 +1,53 @@
+{
+  "pages": [
+    {
+      "path": "pages/home/home",
+      "style": {
+        "navigationBarTitleText": "拼豆小助手",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/me/me",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/editor/editor",
+      "style": {
+        "navigationBarTitleText": "图案编辑器",
+        "navigationStyle": "custom",
+        "disableScroll": true
+      }
+    },
+    {
+      "path": "pages/detail/detail",
+      "style": {
+        "navigationBarTitleText": "图案详情"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#FF5C8A",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "拼豆小助手",
+    "navigationBarBackgroundColor": "#FF5C8A",
+    "backgroundColor": "#FFF4F8"
+  }
+}
