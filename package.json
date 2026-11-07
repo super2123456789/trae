@@ -1,0 +1,22 @@
+{
+  "name": "pindou-miniapp",
+  "version": "1.0.0",
+  "description": "拼豆小助手：图片转拼豆图纸（多品牌色卡、颜色分层、手动编辑、A4 PDF 导出）",
+  "scripts": {
+    "dev:mp-weixin": "uni -p mp-weixin",
+    "build:mp-weixin": "uni build -p mp-weixin"
+  },
+  "dependencies": {
+    "@dcloudio/uni-app": "3.0.0-5030420261029002",
+    "@dcloudio/uni-components": "3.0.0-5030420261029002",
+    "@dcloudio/uni-mp-weixin": "3.0.0-5030420261029002",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@dcloudio/uni-cli-shared": "3.0.0-5030420261029002",
+    "@dcloudio/vite-plugin-uni": "3.0.0-5030420261029002",
+    "@vue/runtime-core": "^3.4.21",
+    "sass": "^1.108.1",
+    "vite": "5.2.8"
+  }
+}
